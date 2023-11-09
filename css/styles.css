@@ -1,0 +1,6 @@
+/* Custom CSS */
+@media (max-width: 576px) {
+  .navbar-brand {
+    font-size: 18px; /* Adjust the font size as needed */
+  }
+}
