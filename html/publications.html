@@ -93,7 +93,7 @@
 
   <div class="row pb-5">
     <div class="col-md-6 p-3">
-      <img class="img-fluid float-start" src="/img/image005.png" alt="image005">
+      <img class="img-fluid float-start" src="/img/image005.png" alt="image005" id="imageToEnlarge">
     </div>
     <div class="col-md-6 p-3">
       <h3>Safety of sulfonylureas</h3>
@@ -145,6 +145,17 @@
   </footer>
 
   <!-- JavaScript -->
+<script>
+  const imageToEnlarge = document.getElementById('imageToEnlarge');
+  const mediaQuery = window.matchMedia('(min-width: 768px)'); // Medium-sized screens (md and larger)
+
+  if (mediaQuery.matches) {
+    imageToEnlarge.addEventListener('click', () => {
+      imageToEnlarge.classList.toggle('enlarge');
+    });
+  }
+</script>
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
