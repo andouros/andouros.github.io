@@ -4,3 +4,17 @@
     font-size: 18px; /* Adjust the font size as needed */
   }
 }
+
+/* For small screens (mobile) */
+@media (max-width: 575.98px) {
+  .rounded-circle-mobile {
+    width: 50%;
+  }
+}
+
+/* For medium screens and larger (desktop) */
+@media (min-width: 576px) {
+  .rounded-circle-mobile {
+    width: 100%;
+  }
+}
