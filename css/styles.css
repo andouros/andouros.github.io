@@ -1,19 +1,17 @@
 /* Custom CSS */
+
+/* Small screens (up to 576px) */
 @media (max-width: 576px) {
   .navbar-brand {
     font-size: 18px; /* Adjust the font size as needed */
   }
-}
-
-/* For small screens (mobile) */
-@media (max-width: 575.98px) {
   .rounded-circle-mobile {
     width: 50%;
   }
 }
 
-/* For medium screens and larger (desktop) */
-@media (min-width: 576px) {
+/* Medium screens and larger (577px and above) */
+@media (min-width: 577px) {
   .rounded-circle-mobile {
     width: 100%;
   }
