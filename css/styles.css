@@ -2,9 +2,6 @@
 
 /* Small screens (up to 576px) */
 @media (max-width: 576px) {
-  .navbar-brand {
-    font-size: 18px; /* Adjust the font size as needed */
-  }
   .rounded-circle-mobile {
     width: 50%;
   }
