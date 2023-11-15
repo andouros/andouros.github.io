@@ -1,9 +1,5 @@
 /* Custom CSS */
 
-.navbar {
-    background: linear-gradient(to right, #4a90e2, #63b8ff); /* Adjust the colors as needed */
-}
-
 /* Small screens (up to 576px) */
 @media (max-width: 576px) {
   .rounded-circle-mobile {
