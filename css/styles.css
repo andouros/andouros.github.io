@@ -1,5 +1,9 @@
 /* Custom CSS */
 
+strong {
+    font-weight: 600;
+}
+
 /* Small screens (up to 576px) */
 @media (max-width: 576px) {
   .rounded-circle-mobile {
