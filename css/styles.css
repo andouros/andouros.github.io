@@ -19,3 +19,7 @@
     width: 100%;
   }
 }
+
+.indent {
+    margin-left: 20px;
+}
