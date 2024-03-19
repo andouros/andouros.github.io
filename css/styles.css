@@ -97,23 +97,33 @@
   src: url('../fonts/open-sans-v40-latin-800italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
-/* img size on medium screens (up to 992px) */
-@media (max-width: 992px) {
+/* Small screens (up to 576px) */
+@media (max-width: 576px) {
   .rounded-circle-mobile {
     width: 50%;
   }
   .welcome-img {
-    width: 80%;
+    width: 70%;
   }
 }
 
-/* img size on larger screens (993px and more) */
-@media (min-width: 993px) {
+/* Medium screens (577px to 991px) */
+@media (min-width: 577px) and (max-width: 991px) {
+  .rounded-circle-mobile {
+    width: 50%;
+  }  
+  .welcome-img {
+    width: 50%;
+  }
+}
+
+/* Large screens (992px and above) */
+@media (min-width: 992px) {
   .rounded-circle-mobile {
     width: 100%;
   }
   .welcome-img {
-    width: 100%;
+    width: 100%; /* Adjusted to 100% width for large screens */
   }
 }
 
