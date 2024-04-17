@@ -1,5 +1,5 @@
-document.addEventListener('DOMContentLoaded', function() {
-  if (document.querySelector('html').classList.contains('no-touch')) {
+$(document).ready(function() {
+  if ($('html').hasClass('no-touch')) {
     const clickableImages = document.querySelectorAll('.clickable-image');
 
     clickableImages.forEach(image => {
@@ -12,4 +12,3 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   }
 });
-
