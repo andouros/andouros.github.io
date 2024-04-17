@@ -1,4 +1,4 @@
-$(document).ready(function() {
+document.addEventListener('DOMContentLoaded', function() {
   if ($('html').hasClass('no-touch')) {
     const clickableImages = document.querySelectorAll('.clickable-image');
 
@@ -8,7 +8,7 @@ $(document).ready(function() {
         const enlargedImageElement = document.getElementById('enlargedImage');
 
         enlargedImageElement.src = enlargedImageSrc;
-      });
     });
+  });
   }
 });
