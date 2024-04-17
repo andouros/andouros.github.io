@@ -290,9 +290,20 @@
 		  </div>
 		  
 		  <div class="row pb-5">
-			<div class="col-lg-6 p-3">
-			  <img class="img-fluid float-start" src="/img/forestplot.jpg" alt="Forest plot NOAC and Liver Injury">
-			</div>
+			<!-- Modal -->
+<div class="modal fade" id="imageModal" tabindex="-1" aria-labelledby="imageModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg"> <!-- modal-lg for a large modal -->
+    <div class="modal-content">
+      <div class="modal-body">
+        <img class="img-fluid" id="enlargedImage" src="" alt="Enlarged Image">
+      </div>
+    </div>
+  </div>
+</div>  
+                        <div class="col-lg-6 p-3">
+                          <img class="img-fluid float-start clickable-image" src="/img/forestplot.jpg" alt="Forest plot NOAC and Liver Injury" data-bs-toggle="modal" data-bs-target="#imageModal" data-src="/img/forestplot.jpg">
+                        </div>
+			  
 			<div class="col-lg-6 p-3">
 			  <article>
 				<h3>Real-world effects of direct oral anticoagulants</h3>
@@ -490,4 +501,5 @@
 
   <!-- JavaScript -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <script src="js/scripts.js"></script>
 </body></html>
