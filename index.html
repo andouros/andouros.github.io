@@ -305,8 +305,13 @@
 			  </div>  
 			  
                         <div class="col-lg-6 p-3">
-                          <img class="img-fluid float-start clickable-image" src="/img/forestplot.jpg" alt="Forest plot NOAC and Liver Injury" data-bs-toggle="modal" data-bs-target="#imageModal" data-src="/img/forestplot.jpg">
-                        </div>
+			  <div class="d-none d-lg-block"><!-- show modal only on large screen -->
+                            <img class="img-fluid float-start clickable-image" src="/img/forestplot.jpg" alt="Forest plot NOAC and Liver Injury" data-bs-toggle="modal" data-bs-target="#imageModal" data-src="/img/forestplot.jpg">
+			  </div>
+			  <div class="d-lg-none"><!-- show siple image on small screen -->
+			    <img class="img-fluid float-start" src="/img/forestplot.jpg" alt="Forest plot NOAC and Liver Injury">
+			  </div>
+			</div>
 			  
 			<div class="col-lg-6 p-3">
 			  <article>
