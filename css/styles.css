@@ -145,14 +145,3 @@
 .card a {
     text-decoration: none;
 }
-
-/* for cards on mobile devices */
-@media (max-width: 768px) {
-    .d-flex.flex-column.flex-md-row .me-5 {
-        margin-bottom: 20px; 
-    }
-
-    .d-flex.flex-column.flex-md-row {
-        flex-direction: column; 
-    }
-}
