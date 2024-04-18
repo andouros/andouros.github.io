@@ -105,10 +105,6 @@
   .welcome-img {
     width: 70%;
   }
-  .card {
-    width: 100%;
-    margin: 10px; 
-  }
 }
 
 /* Medium screens (577px to 991px) */
@@ -150,3 +146,9 @@
     text-decoration: none;
 }
 
+@media (max-width: 768px) {
+    .card {
+        width: 95%;
+        margin: 10px;
+    }
+}
