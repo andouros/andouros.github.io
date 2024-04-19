@@ -144,3 +144,9 @@
 .card a {
     text-decoration: none;
 }
+
+.nav-link {
+	padding-left: 0em !important;
+	padding-right: 0em !important;
+	padding-top: .7em;
+}
